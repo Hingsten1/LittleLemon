@@ -56,8 +56,8 @@ ROOT_URLCONF = 'littlelemon.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': ["templates"],
+        'APP_DIRS': True,   
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
